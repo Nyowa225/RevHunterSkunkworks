@@ -231,10 +231,10 @@ def drawboostBars(x,y):
     ac.glQuad(0,42,percentage_boost*4.35,8)
     #ac.glQuad(960,42,-percentage_boost*4.35,8)
     ac.glBegin(acsys.GL.Quads)
-    ac.glVertex2f(960,40)
-    ac.glVertex2f(960-percentage_boost*4.35,40)
-    ac.glVertex2f(960-percentage_boost*4.35,48)
-    ac.glVertex2f(960,48)
+    ac.glVertex2f(960,42)
+    ac.glVertex2f(960-percentage_boost*4.35,42)
+    ac.glVertex2f(960-percentage_boost*4.35,50)
+    ac.glVertex2f(960,50)
     ac.glEnd()
 
 def setMinRPM(minval):
